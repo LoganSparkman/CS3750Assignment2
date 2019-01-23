@@ -1,1 +1,16 @@
 C:\Users\Rhet\Source\Repos\CS3750Assignment2\21CardTrick\bin\Debug\21CardTrick.exe.config
+C:\Users\rhett\Source\Repos\CS3750Assignment2\21CardTrick\bin\Debug\21CardTrick.exe.config
+C:\Users\rhett\Source\Repos\CS3750Assignment2\21CardTrick\bin\Debug\21CardTrick.exe
+C:\Users\rhett\Source\Repos\CS3750Assignment2\21CardTrick\bin\Debug\21CardTrick.pdb
+C:\Users\rhett\Source\Repos\CS3750Assignment2\21CardTrick\obj\Debug\21CardTrick.csprojAssemblyReference.cache
+C:\Users\rhett\Source\Repos\CS3750Assignment2\21CardTrick\obj\Debug\MainWindow.g.cs
+C:\Users\rhett\Source\Repos\CS3750Assignment2\21CardTrick\obj\Debug\App.g.cs
+C:\Users\rhett\Source\Repos\CS3750Assignment2\21CardTrick\obj\Debug\21CardTrick_MarkupCompile.cache
+C:\Users\rhett\Source\Repos\CS3750Assignment2\21CardTrick\obj\Debug\21CardTrick_MarkupCompile.lref
+C:\Users\rhett\Source\Repos\CS3750Assignment2\21CardTrick\obj\Debug\MainWindow.baml
+C:\Users\rhett\Source\Repos\CS3750Assignment2\21CardTrick\obj\Debug\21CardTrick.g.resources
+C:\Users\rhett\Source\Repos\CS3750Assignment2\21CardTrick\obj\Debug\_21CardTrick.Properties.Resources.resources
+C:\Users\rhett\Source\Repos\CS3750Assignment2\21CardTrick\obj\Debug\21CardTrick.csproj.GenerateResource.cache
+C:\Users\rhett\Source\Repos\CS3750Assignment2\21CardTrick\obj\Debug\21CardTrick.csproj.CoreCompileInputs.cache
+C:\Users\rhett\Source\Repos\CS3750Assignment2\21CardTrick\obj\Debug\21CardTrick.exe
+C:\Users\rhett\Source\Repos\CS3750Assignment2\21CardTrick\obj\Debug\21CardTrick.pdb
