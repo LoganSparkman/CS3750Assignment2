@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/21CardTrick/obj/Debug
+/21CardTrick/obj/Release
+/21CardTrick/bin/Debug
+/.vs/CS3750Assignment2/v15
+/.vs/21CardTrick/v15/Server/sqlite3
+/.vs/21CardTrick/v15
+/.vs
