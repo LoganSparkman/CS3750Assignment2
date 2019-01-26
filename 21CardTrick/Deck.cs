@@ -11,23 +11,61 @@ namespace _21CardTrick
 
         private static readonly Random getrandom = new Random();
 
-        static public void shuffle(int[] deck)
+        public static Card[] cards = new Card[52];
+
+        public Deck()
         {
-            for (int i = deck.Length - 1; i > 0; --i)
+            for (int i = 0; i < 4; i++)
             {
-                int k = getrandom.Next(i + 1);
-                int temp = deck[i];
-                deck[i] = deck[k];
-                deck[k] = temp;
+                for (int j = 0; j < 13; j++)
+                {
+                    string suit = "";
+                    if (i == 0) { suit = "clubs"; }
+                    if (i == 1) { suit = "diamonds"; }
+                    if (i == 2) { suit = "hearts"; }
+                    if (i == 3) { suit = "spades"; }
+                    string face = "";
+                    if (j == 0) { face = "2"; }
+                    if (j == 1) { face = "3"; }
+                    if (j == 2) { face = "4"; }
+                    if (j == 3) { face = "5"; }
+                    if (j == 4) { face = "6"; }
+                    if (j == 5) { face = "7"; }
+                    if (j == 6) { face = "8"; }
+                    if (j == 7) { face = "9"; }
+                    if (j == 8) { face = "10"; }
+                    if (j == 9) { face = "ace"; }
+                    if (j == 10) { face = "jack"; }
+                    if (j == 11) { face = "queen"; }
+                    if (j == 12) { face = "king"; }
+                    Card temp = new Card(suit, face);
+                    cards[(i + 13) + j] = temp;
+                }
             }
         }
 
-        public static int random21(int min, int max)
+        public void shuffle()
         {
-            lock (getrandom)
+            for (int i = cards.Length - 1; i > 0; --i)
             {
-                return getrandom.Next(1, 21);
+                int k = getrandom.Next(i + 1);
+                Card temp = cards[i];
+                cards[i] = cards[k];
+                cards[k] = temp;
             }
+        }
+
+        public Card[] random21()
+        {
+            int k = getrandom.Next(52);
+            Card[] Cards21 = new Card[21];
+            for (int i = 0; i < 21; i++)
+            {
+                Cards21[i] = cards[k];
+                k++;
+                if (k == 52) { k = 0; }
+            }
+            return Cards21;
         }
 
     }

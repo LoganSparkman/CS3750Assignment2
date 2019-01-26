@@ -5,9 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_21CardTrick"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="686.525" Width="820">
     <Grid>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="176,185,0,0" VerticalAlignment="Top" Width="109" Height="40"/>
+        <DataGrid x:Name="Header" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="789" Margin="10,10,0,0"/>
+        <Label x:Name="HeaderLabel1" Content="Hello and welcome to our 21 card trick! If you would, please silently choose any card below and remember it. " HorizontalAlignment="Left" Margin="22,28,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label x:Name="HeaderLabel2" Content="When you are done, please hit the continue button at the bottom of the screen." HorizontalAlignment="Left" Margin="22,64,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <DataGrid HorizontalAlignment="Left" Height="422" Margin="10,115,0,0" VerticalAlignment="Top" Width="222"/>
 
+        <Image x:Name="column1R7" HorizontalAlignment="Left" Height="323" Margin="10,115,0,0" VerticalAlignment="Top" Width="222" Source="../Images/2_of_clubs.jpg" Panel.ZIndex="6" OpacityMask="Black" />
+        <Image x:Name="column1R6" HorizontalAlignment="Left" Height="323" Margin="10,196,0,0" VerticalAlignment="Top" Width="222" Source="../Images/2_of_clubs.jpg" Panel.ZIndex="5"/>
     </Grid>
 </Window>

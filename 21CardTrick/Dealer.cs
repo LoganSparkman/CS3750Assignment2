@@ -10,18 +10,61 @@ namespace _21CardTrick
     {
         private int dealNumber;
         private int card;
-
-        public void deal(int dealNumber)
+        private Deck deck = new Deck();
+        private Card[] cards = new Card[21];
+        private Board board = new Board();
+        private Player player = new Player();
+        public void deal()
         {
-            this.dealNumber = dealNumber;
+            if (!player.getHasSelectedCard())
+            {
+                deck.shuffle();
+                cards = deck.random21();
+            }
+            for (int i = 0; i < 7; i++)
+            {
+                for (int j = 0; j < 3; j++)
+                {
+                    board.addToColumn(j, cards[i * 3 + j]);
+                }
+            }
         }
-        public void revealCard(int card)
+        public Card revealCard(int card)
         {
-            this.card = card;
+            return cards[10];
         }
         public void pickupCards(int card)
         {
-            this.card = card;
+            Card[] firstColumn = board.columns[0].cards;
+            Card[] secondColumn = board.columns[1].cards;
+            Card[] thirdColumn = board.columns[2].cards;
+            if (player.getColumn() == 0)
+            {
+                for (int i = 0; i < 7; i++)
+                {
+                    cards[i] = secondColumn[i];
+                    cards[i + 7] = firstColumn[i];
+                    cards[i + 14] = thirdColumn[i];
+                }
+            }
+            else if (player.getColumn() == 1)
+            {
+                for (int i = 0; i < 7; i++)
+                {
+                    cards[i] = firstColumn[i];
+                    cards[i + 7] = secondColumn[i];
+                    cards[i + 14] = thirdColumn[i];
+                }
+            }
+            else if (player.getColumn() == 2)
+            {
+                for (int i = 0; i < 7; i++)
+                {
+                    cards[i] = firstColumn[i];
+                    cards[i + 7] = thirdColumn[i];
+                    cards[i + 14] = secondColumn[i];
+                }
+            }
         }
 
     }
