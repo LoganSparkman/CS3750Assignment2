@@ -41,7 +41,30 @@ namespace _21CardTrick
 
         private void setImage()
         {
-            image = face + "_of_" + suit; 
+            string tFace;
+
+            if (face.Equals("King"))
+            {
+                tFace = "K";
+            }
+            else if (face.Equals("Queen"))
+            {
+                tFace = "K";
+            }
+            else if (face.Equals("Jack"))
+            {
+                tFace = "J";
+            }
+            else if (face.Equals("Ace"))
+            {
+                tFace = "A";
+            }
+            else
+            {
+                tFace = face;
+            }
+
+            image = "Images/" + tFace + suit[0] + ".jpg"; 
         }
 
             

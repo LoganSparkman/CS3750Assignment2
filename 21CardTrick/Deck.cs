@@ -20,10 +20,10 @@ namespace _21CardTrick
                 for (int j = 0; j < 13; j++)
                 {
                     string suit = "";
-                    if (i == 0) { suit = "clubs"; }
-                    if (i == 1) { suit = "diamonds"; }
-                    if (i == 2) { suit = "hearts"; }
-                    if (i == 3) { suit = "spades"; }
+                    if (i == 0) { suit = "Clubs"; }
+                    if (i == 1) { suit = "Diamonds"; }
+                    if (i == 2) { suit = "Hearts"; }
+                    if (i == 3) { suit = "Spades"; }
                     string face = "";
                     if (j == 0) { face = "2"; }
                     if (j == 1) { face = "3"; }
@@ -34,10 +34,10 @@ namespace _21CardTrick
                     if (j == 6) { face = "8"; }
                     if (j == 7) { face = "9"; }
                     if (j == 8) { face = "10"; }
-                    if (j == 9) { face = "ace"; }
-                    if (j == 10) { face = "jack"; }
-                    if (j == 11) { face = "queen"; }
-                    if (j == 12) { face = "king"; }
+                    if (j == 9) { face = "Ace"; }
+                    if (j == 10) { face = "Jack"; }
+                    if (j == 11) { face = "Queen"; }
+                    if (j == 12) { face = "King"; }
                     Card temp = new Card(suit, face);
                     cards[(i + 13) + j] = temp;
                 }
