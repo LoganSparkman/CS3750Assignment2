@@ -5,41 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_21CardTrick"
         mc:Ignorable="d"
-        Title="MainWindow" Height="984.525" Width="917.5">
-    <Grid>
-        <DataGrid x:Name="Header" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="789" Margin="10,10,0,0"/>
-        <Label x:Name="HeaderLabel1" Content="Hello and welcome to our 21 card trick! If you would, please silently choose any card below and remember it. " HorizontalAlignment="Left" Margin="22,28,0,0" VerticalAlignment="Top" FontSize="16"/>
-        <Label x:Name="HeaderLabel2" Content="When you are done, please hit the continue button at the bottom of the screen." HorizontalAlignment="Left" Margin="22,64,0,0" VerticalAlignment="Top" FontSize="16"/>
-        <DataGrid HorizontalAlignment="Left" Height="826" Margin="10,115,0,0" VerticalAlignment="Top" Width="204"/>
-
-        <Image x:Name="column1R7" HorizontalAlignment="Left" Height="300" Margin="10,115,0,0" VerticalAlignment="Top" Width="222" Source="../Images/2_of_clubs.jpg" Panel.ZIndex="6" OpacityMask="Black" />
-        <Image x:Name="column1R6" HorizontalAlignment="Left" Height="300" Margin="10,196,0,0" VerticalAlignment="Top" Width="222" Source="../Images/2_of_clubs.jpg" Panel.ZIndex="5"/>
-        <Image x:Name="column1R5" HorizontalAlignment="Left" Height="300" Margin="10,285,0,0" VerticalAlignment="Top" Width="222" Source="../Images/2_of_clubs.jpg" Panel.ZIndex="4"/>
-        <Image x:Name="column1R4" HorizontalAlignment="Left" Height="300" Margin="10,374,0,0" VerticalAlignment="Top" Width="222" Source="../Images/2_of_clubs.jpg" Panel.ZIndex="3"/>
-        <Image x:Name="column1R3" HorizontalAlignment="Left" Height="300" Margin="10,463,0,0" VerticalAlignment="Top" Width="222" Source="../Images/2_of_clubs.jpg" Panel.ZIndex="2"/>
-        <Image x:Name="column1R2" HorizontalAlignment="Left" Height="300" Margin="10,552,0,0" VerticalAlignment="Top" Width="222" Source="../Images/2_of_clubs.jpg" Panel.ZIndex="1"/>
-        <Image x:Name="column1R1" HorizontalAlignment="Left" Height="300" Margin="10,641,0,0" VerticalAlignment="Top" Width="222" Source="../Images/2_of_clubs.jpg" Panel.ZIndex="0"/>
-        
-        <DataGrid HorizontalAlignment="Left" Height="826" Margin="240,115,0,0" VerticalAlignment="Top" Width="204"/>
-
-        <Image x:Name="column2R7" HorizontalAlignment="Left" Height="300" Margin="250,115,0,0" VerticalAlignment="Top" Width="222" Source="../Images/2_of_clubs.jpg" Panel.ZIndex="6" OpacityMask="Black" />
-        <Image x:Name="column2R6" HorizontalAlignment="Left" Height="300" Margin="250,196,0,0" VerticalAlignment="Top" Width="222" Source="../Images/2_of_clubs.jpg" Panel.ZIndex="5"/>
-        <Image x:Name="column2R5" HorizontalAlignment="Left" Height="300" Margin="250,285,0,0" VerticalAlignment="Top" Width="222" Source="../Images/2_of_clubs.jpg" Panel.ZIndex="4"/>
-        <Image x:Name="column2R4" HorizontalAlignment="Left" Height="300" Margin="250,374,0,0" VerticalAlignment="Top" Width="222" Source="../Images/2_of_clubs.jpg" Panel.ZIndex="3"/>
-        <Image x:Name="column2R3" HorizontalAlignment="Left" Height="300" Margin="250,463,0,0" VerticalAlignment="Top" Width="222" Source="../Images/2_of_clubs.jpg" Panel.ZIndex="2"/>
-        <Image x:Name="column2R2" HorizontalAlignment="Left" Height="300" Margin="250,552,0,0" VerticalAlignment="Top" Width="222" Source="../Images/2_of_clubs.jpg" Panel.ZIndex="1"/>
-        <Image x:Name="column2R1" HorizontalAlignment="Left" Height="300" Margin="250,641,0,0" VerticalAlignment="Top" Width="222" Source="../Images/2_of_clubs.jpg" Panel.ZIndex="0"/>
-
-        <DataGrid HorizontalAlignment="Left" Height="826" Margin="490,115,0,0" VerticalAlignment="Top" Width="204"/>
-
-        <Image x:Name="column3R7" HorizontalAlignment="Left" Height="300" Margin="490,115,0,0" VerticalAlignment="Top" Width="222" Source="../Images/2_of_clubs.jpg" Panel.ZIndex="6" OpacityMask="Black" />
-        <Image x:Name="column3R6" HorizontalAlignment="Left" Height="300" Margin="490,196,0,0" VerticalAlignment="Top" Width="222" Source="../Images/2_of_clubs.jpg" Panel.ZIndex="5"/>
-        <Image x:Name="column3R5" HorizontalAlignment="Left" Height="300" Margin="490,285,0,0" VerticalAlignment="Top" Width="222" Source="../Images/2_of_clubs.jpg" Panel.ZIndex="4"/>
-        <Image x:Name="column3R4" HorizontalAlignment="Left" Height="300" Margin="490,374,0,0" VerticalAlignment="Top" Width="222" Source="../Images/2_of_clubs.jpg" Panel.ZIndex="3"/>
-        <Image x:Name="column3R3" HorizontalAlignment="Left" Height="300" Margin="490,463,0,0" VerticalAlignment="Top" Width="222" Source="../Images/2_of_clubs.jpg" Panel.ZIndex="2"/>
-        <Image x:Name="column3R2" HorizontalAlignment="Left" Height="300" Margin="490,552,0,0" VerticalAlignment="Top" Width="222" Source="../Images/2_of_clubs.jpg" Panel.ZIndex="1"/>
-        <Image x:Name="column3R1" HorizontalAlignment="Left" Height="300" Margin="490,641,0,0" VerticalAlignment="Top" Width="222" Source="../Images/2_of_clubs.jpg" Panel.ZIndex="0"/>
-        <DataGrid HorizontalAlignment="Left" Height="100" Margin="730,852,-18,0" VerticalAlignment="Top" Width="100"/>
-        <Button Content="Submit" Height="100" HorizontalAlignment="Left" Margin="730,852,-18,0" VerticalAlignment="Top" Width="100" FontSize="20" Click="Button_Click_1"/>
+        Title="MainWindow" Height="921.525" Width="917.5">
+    <Grid Margin="0,0,0,9">
+        <Grid.Background>
+            <ImageBrush ImageSource="Images/backG.jpg"/>
+        </Grid.Background>
     </Grid>
 </Window>
