@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Logan Sparkman\Documents\CS3280_C#\CS3750Assignment2\21CardTrick\obj\Debug\
+C:\Users\chuka\Documents\GitHub\CS3750Assignment2\21CardTrick\obj\Debug\
 _21CardTrick
 none
 false
 DEBUG;TRACE
-C:\Users\Logan Sparkman\Documents\CS3280_C#\CS3750Assignment2\21CardTrick\App.xaml
-11151548125
+C:\Users\chuka\Documents\GitHub\CS3750Assignment2\21CardTrick\App.xaml
+2-465707314
 
-15-1010242016
+16-1630733073
 131569487696
-MainWindow.xaml;
+MainWindow.xaml;gameBoard.xaml;
 
-False
+True
 
