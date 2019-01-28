@@ -1,17 +1,17 @@
-﻿<Window x:Class="_21CardTrick.MainWindow"
+﻿<Window x:Name="_21_Card_Trick" x:Class="_21CardTrick.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_21CardTrick"
         mc:Ignorable="d"
-        Title="MainWindow" Height="921.525" Width="917.5">
-    <Grid Margin="0,0,0,9">
+        Title="21 Card Trick" Height="723.525" Width="668.5">
+    <Grid Margin="10,0,2,12">
         <Grid.Background>
             <ImageBrush ImageSource="Images/backG.jpg"/>
         </Grid.Background>
-        <Button x:Name="startButton" Content="Start" HorizontalAlignment="Left" Margin="627,765,0,0" VerticalAlignment="Top" Width="149" Height="59" FontSize="36" RenderTransformOrigin="0.038,0.489" FontFamily="Tempus Sans ITC" FontWeight="Bold" BorderBrush="#FFC39696" Foreground="#FF9C2121" Click="startButton_Click" Background="#FF896767"/>
-        <Label Content="21 Card Trick" HorizontalAlignment="Left" Margin="329,42,0,0" VerticalAlignment="Top" Foreground="#FFD15D5D" FontSize="72" RenderTransformOrigin="0.038,0.489" FontFamily="Tempus Sans ITC"  FontWeight="Bold" BorderBrush="#FFC39696"/>
+        <Button x:Name="startButton" Content="Start" HorizontalAlignment="Left" Margin="432,582,0,0" VerticalAlignment="Top" Width="128" Height="56" FontSize="36" RenderTransformOrigin="0.038,0.489" FontFamily="Tempus Sans ITC" FontWeight="Bold" BorderBrush="#FFC39696" Foreground="#FF9C2121" Click="startButton_Click" Background="#FF896767"/>
+        <Label Content="21 Card Trick" HorizontalAlignment="Left" Margin="170,10,0,0" VerticalAlignment="Top" Foreground="#FFD15D5D" FontSize="72" RenderTransformOrigin="0.038,0.489" FontFamily="Tempus Sans ITC"  FontWeight="Bold" BorderBrush="#FFC39696"/>
 
     </Grid>
 </Window>
