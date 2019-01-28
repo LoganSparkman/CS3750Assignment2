@@ -110,5 +110,59 @@
   <ItemGroup>
     <Resource Include="Images\backG.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\10C.jpg" />
+    <Resource Include="Images\10D.jpg" />
+    <Resource Include="Images\10H.jpg" />
+    <Resource Include="Images\10S.jpg" />
+    <Resource Include="Images\2C.jpg" />
+    <Resource Include="Images\2D.jpg" />
+    <Resource Include="Images\2H.jpg" />
+    <Resource Include="Images\2S.jpg" />
+    <Resource Include="Images\3C.jpg" />
+    <Resource Include="Images\3D.jpg" />
+    <Resource Include="Images\3H.jpg" />
+    <Resource Include="Images\3S.jpg" />
+    <Resource Include="Images\4C.jpg" />
+    <Resource Include="Images\4D.jpg" />
+    <Resource Include="Images\4H.jpg" />
+    <Resource Include="Images\4S.jpg" />
+    <Resource Include="Images\5C.jpg" />
+    <Resource Include="Images\5D.jpg" />
+    <Resource Include="Images\5H.jpg" />
+    <Resource Include="Images\5S.jpg" />
+    <Resource Include="Images\6C.jpg" />
+    <Resource Include="Images\6D.jpg" />
+    <Resource Include="Images\6H.jpg" />
+    <Resource Include="Images\6S.jpg" />
+    <Resource Include="Images\7C.jpg" />
+    <Resource Include="Images\7D.jpg" />
+    <Resource Include="Images\7H.jpg" />
+    <Resource Include="Images\7S.jpg" />
+    <Resource Include="Images\8C.jpg" />
+    <Resource Include="Images\8D.jpg" />
+    <Resource Include="Images\8H.jpg" />
+    <Resource Include="Images\8S.jpg" />
+    <Resource Include="Images\9C.jpg" />
+    <Resource Include="Images\9D.jpg" />
+    <Resource Include="Images\9H.jpg" />
+    <Resource Include="Images\9S.jpg" />
+    <Resource Include="Images\AC.jpg" />
+    <Resource Include="Images\AD.jpg" />
+    <Resource Include="Images\AH.jpg" />
+    <Resource Include="Images\AS.jpg" />
+    <Resource Include="Images\JC.jpg" />
+    <Resource Include="Images\JD.jpg" />
+    <Resource Include="Images\JH.jpg" />
+    <Resource Include="Images\JS.jpg" />
+    <Resource Include="Images\KC.jpg" />
+    <Resource Include="Images\KD.jpg" />
+    <Resource Include="Images\KH.jpg" />
+    <Resource Include="Images\KS.jpg" />
+    <Resource Include="Images\QC.jpg" />
+    <Resource Include="Images\QD.jpg" />
+    <Resource Include="Images\QH.jpg" />
+    <Resource Include="Images\QS.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

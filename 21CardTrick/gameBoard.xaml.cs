@@ -17,9 +17,9 @@ namespace _21CardTrick
     /// <summary>
     /// Interaction logic for Window1.xaml
     /// </summary>
-    public partial class Window1 : Window
+    public partial class gameBoard : Window
     {
-        public Window1()
+        public gameBoard()
         {
             InitializeComponent();
         }

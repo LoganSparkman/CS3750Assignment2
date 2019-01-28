@@ -20,46 +20,16 @@ namespace _21CardTrick
     /// </summary>
     public partial class MainWindow : Window
     {
-        string currentState = "Waiting For Card to be chosen";
-        public MainWindow()
+        /// <summary>
+        /// This starts the game
+        /// </summary>
+        /// <param name="sender">The sender object</param>
+        /// <param name="e">The event args</param>
+        private void startButton_Click(object sender, RoutedEventArgs e)
         {
-            InitializeComponent();
-            //Init 21 Cards
-            //Get 21 Cards and connect to image boxes
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            if (currentState == "Waiting For Card to be chosen")
-            {
-                //Change instructions to ask for column
-                //Update classes
-                currentState = "Waiting for column 1";
-            }
-            else if (currentState == "Waiting for column 1")
-            {
-                //Update classes
-                //Redeal cards
-                currentState = "Waiting for column 2";
-            }
-            else if (currentState == "Waiting for column 2")
-            {
-                //Update classes
-                //Redeal cards
-                currentState = "Waiting for column 3";
-            }
-            else if (currentState == "Waiting for column 3")
-            {
-                //Update classes
-                //show final card
-                //turn submit into close
-                
-            }
+            gameBoard window = new gameBoard();
+            Close();
+            window.Show();
         }
     }
 }

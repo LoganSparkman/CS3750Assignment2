@@ -10,5 +10,8 @@
         <Grid.Background>
             <ImageBrush ImageSource="Images/backG.jpg"/>
         </Grid.Background>
+        <Button x:Name="startButton" Content="Start" HorizontalAlignment="Left" Margin="627,765,0,0" VerticalAlignment="Top" Width="149" Height="59" FontSize="36" RenderTransformOrigin="0.038,0.489" FontFamily="Tempus Sans ITC" FontWeight="Bold" BorderBrush="#FFC39696" Foreground="#FF9C2121" Click="startButton_Click" Background="#FF896767"/>
+        <Label Content="21 Card Trick" HorizontalAlignment="Left" Margin="329,42,0,0" VerticalAlignment="Top" Foreground="#FFD15D5D" FontSize="72" RenderTransformOrigin="0.038,0.489" FontFamily="Tempus Sans ITC"  FontWeight="Bold" BorderBrush="#FFC39696"/>
+
     </Grid>
 </Window>
