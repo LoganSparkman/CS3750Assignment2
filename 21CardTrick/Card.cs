@@ -49,7 +49,7 @@ namespace _21CardTrick
             }
             else if (face.Equals("Queen"))
             {
-                tFace = "K";
+                tFace = "Q";
             }
             else if (face.Equals("Jack"))
             {

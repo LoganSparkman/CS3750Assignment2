@@ -12,8 +12,8 @@ namespace _21CardTrick
         private int card;
         private Deck deck = new Deck();
         private Card[] cards = new Card[21];
-        private Board board = new Board();
-        private Player player = new Player();
+        public Board board = new Board();
+        public Player player = new Player();
         public void deal()
         {
             if (!player.getHasSelectedCard())
@@ -33,7 +33,7 @@ namespace _21CardTrick
         {
             return cards[10];
         }
-        public void pickupCards(int card)
+        public void pickupCards()
         {
             Card[] firstColumn = board.columns[0].cards;
             Card[] secondColumn = board.columns[1].cards;
@@ -65,6 +65,7 @@ namespace _21CardTrick
                     cards[i + 14] = secondColumn[i];
                 }
             }
+            board.clearColumns();
         }
 
     }

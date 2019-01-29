@@ -39,7 +39,7 @@ namespace _21CardTrick
                     if (j == 11) { face = "Queen"; }
                     if (j == 12) { face = "King"; }
                     Card temp = new Card(suit, face);
-                    cards[(i + 13) + j] = temp;
+                    cards[(i * 13) + j] = temp;
                 }
             }
         }
