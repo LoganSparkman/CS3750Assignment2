@@ -12,7 +12,7 @@
         </Grid.Background>
         <DataGrid x:Name="Header" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="890" Margin="10,10,0,0"/>
         <Label x:Name="HeaderLabel1" Content="Hello and welcome to our 21 card trick! If you would, please silently choose any card below and remember it. " HorizontalAlignment="Left" Margin="22,28,0,0" VerticalAlignment="Top" FontSize="18" Foreground="#FFC56363" FontFamily="Tempus Sans ITC"  FontWeight="Bold" BorderBrush="#FFC39696"/>
-        <Label x:Name="HeaderLabel2" Content="When you are done, please hit the submit button at the bottom of the screen." HorizontalAlignment="Left" Margin="22,64,0,0" VerticalAlignment="Top" FontSize="18" FontFamily="Tempus Sans ITC"  FontWeight="Bold" BorderBrush="#FFC57E7E"/>
+        <Label x:Name="HeaderLabel2" Content="When you are done, please hit the submit button at the bottom of the screen." HorizontalAlignment="Left" Margin="22,64,0,0" VerticalAlignment="Top" FontSize="18" FontFamily="Tempus Sans ITC"  FontWeight="Bold" BorderBrush="#FFF53333"/>
         <DataGrid HorizontalAlignment="Left" Height="505" Margin="10,115,0,0" VerticalAlignment="Top" Width="204" MouseDown="DataGrid_MouseDown" Background="#FFCF8E8E" />
 
         <Image x:Name="column1R7" HorizontalAlignment="Left" Height="200" Margin="50,115,0,0" VerticalAlignment="Top" Width="150" Source="Images/2C.jpg" Panel.ZIndex="0" MouseDown="DataGrid_MouseDown"/>
@@ -43,8 +43,8 @@
         <Image x:Name="column3R2" HorizontalAlignment="Left" Height="200" Margin="530,365,0,0" VerticalAlignment="Top" Width="150" Source="Images/2C.jpg" Panel.ZIndex="5" MouseDown="DataGrid_MouseDown_2"/>
         <Image x:Name="column3R1" HorizontalAlignment="Left" Height="200" Margin="530,415,0,0" VerticalAlignment="Top" Width="150" Source="Images/2C.jpg" Panel.ZIndex="6" MouseDown="DataGrid_MouseDown_2"/>
         <DataGrid HorizontalAlignment="Left" Height="48" Margin="730,542,0,0" VerticalAlignment="Top" Width="100"/>
-        <Button x:Name="btnSumbit" Content="Submit" Height="48" HorizontalAlignment="Left" Margin="730,542,0,0" VerticalAlignment="Top" Width="100" FontSize="20" Click="Button_Click_1"/>
-        <Label x:Name="lblCurrentCollumn" Content="" HorizontalAlignment="Left" Margin="730,410,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Button x:Name="btnSumbit" Content="Submit" Height="48" HorizontalAlignment="Left" Margin="730,542,0,0" VerticalAlignment="Top" Width="100" FontSize="20" Click="Button_Click_1" FontFamily="Tempus Sans ITC" FontWeight="Bold" BorderBrush="#FFC39696" Foreground="#FF9C2121" Background="#FF896767"/>
+        <Label x:Name="lblCurrentCollumn" Content="" HorizontalAlignment="Left" Margin="730,410,0,0" VerticalAlignment="Top" FontSize="18" Foreground="#FFD15D5D" FontSize="72" RenderTransformOrigin="0.038,0.489" FontFamily="Tempus Sans ITC"  FontWeight="Bold" BorderBrush="#FFC39696"/>
 
     </Grid>
 </Window>
