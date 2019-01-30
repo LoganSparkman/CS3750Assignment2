@@ -44,7 +44,7 @@
         <Image x:Name="column3R1" HorizontalAlignment="Left" Height="200" Margin="530,415,0,0" VerticalAlignment="Top" Width="150" Source="Images/2C.jpg" Panel.ZIndex="6" MouseDown="DataGrid_MouseDown_2"/>
         <DataGrid HorizontalAlignment="Left" Height="48" Margin="730,542,0,0" VerticalAlignment="Top" Width="100"/>
         <Button x:Name="btnSumbit" Content="Submit" Height="48" HorizontalAlignment="Left" Margin="730,542,0,0" VerticalAlignment="Top" Width="100" FontSize="20" Click="Button_Click_1" FontFamily="Tempus Sans ITC" FontWeight="Bold" BorderBrush="#FFC39696" Foreground="#FF9C2121" Background="#FF896767"/>
-        <Label x:Name="lblCurrentCollumn" Content="" HorizontalAlignment="Left" Margin="730,410,0,0" VerticalAlignment="Top" FontSize="18" Foreground="#FFD15D5D" FontSize="72" RenderTransformOrigin="0.038,0.489" FontFamily="Tempus Sans ITC"  FontWeight="Bold" BorderBrush="#FFC39696"/>
+        <Label x:Name="lblCurrentCollumn" Content="" HorizontalAlignment="Left" Margin="730,410,0,0" VerticalAlignment="Top" FontSize="18" Foreground="#FFD15D5D"  RenderTransformOrigin="0.038,0.489" FontFamily="Tempus Sans ITC"  FontWeight="Bold" BorderBrush="#FFC39696"/>
 
     </Grid>
 </Window>
