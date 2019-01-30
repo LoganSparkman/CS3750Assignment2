@@ -5,12 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_21CardTrick"
         mc:Ignorable="d"
-        Title="Window1"  Height="645.302" Width="917.5">
-    <Grid>
+        Title="Window1"  Height="661.302" Width="917.5">
+    <Grid Margin="0,0,0,-21">
+        <Grid.Background>
+            <ImageBrush ImageSource="Images/maxresdefault.jpg"/>
+        </Grid.Background>
         <DataGrid x:Name="Header" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="890" Margin="10,10,0,0"/>
-        <Label x:Name="HeaderLabel1" Content="Hello and welcome to our 21 card trick! If you would, please silently choose any card below and remember it. " HorizontalAlignment="Left" Margin="22,28,0,0" VerticalAlignment="Top" FontSize="16"/>
-        <Label x:Name="HeaderLabel2" Content="When you are done, please hit the submit button at the bottom of the screen." HorizontalAlignment="Left" Margin="22,64,0,0" VerticalAlignment="Top" FontSize="16"/>
-        <DataGrid HorizontalAlignment="Left" Height="826" Margin="10,115,0,0" VerticalAlignment="Top" Width="204" MouseDown="DataGrid_MouseDown" />
+        <Label x:Name="HeaderLabel1" Content="Hello and welcome to our 21 card trick! If you would, please silently choose any card below and remember it. " HorizontalAlignment="Left" Margin="22,28,0,0" VerticalAlignment="Top" FontSize="18" Foreground="#FFC56363" FontFamily="Tempus Sans ITC"  FontWeight="Bold" BorderBrush="#FFC39696"/>
+        <Label x:Name="HeaderLabel2" Content="When you are done, please hit the submit button at the bottom of the screen." HorizontalAlignment="Left" Margin="22,64,0,0" VerticalAlignment="Top" FontSize="18" FontFamily="Tempus Sans ITC"  FontWeight="Bold" BorderBrush="#FFC57E7E"/>
+        <DataGrid HorizontalAlignment="Left" Height="505" Margin="10,115,0,0" VerticalAlignment="Top" Width="204" MouseDown="DataGrid_MouseDown" Background="#FFCF8E8E" />
 
         <Image x:Name="column1R7" HorizontalAlignment="Left" Height="200" Margin="50,115,0,0" VerticalAlignment="Top" Width="150" Source="Images/2C.jpg" Panel.ZIndex="0" MouseDown="DataGrid_MouseDown"/>
         <Image x:Name="column1R6" HorizontalAlignment="Left" Height="200" Margin="50,165,0,0" VerticalAlignment="Top" Width="150" Source="Images/2C.jpg" Panel.ZIndex="1" MouseDown="DataGrid_MouseDown"/>
@@ -20,7 +23,7 @@
         <Image x:Name="column1R2" HorizontalAlignment="Left" Height="200" Margin="50,365,0,0" VerticalAlignment="Top" Width="150" Source="Images/2C.jpg" Panel.ZIndex="5" MouseDown="DataGrid_MouseDown"/>
         <Image x:Name="column1R1" HorizontalAlignment="Left" Height="200" Margin="50,415,0,0" VerticalAlignment="Top" Width="150" Source="Images/2C.jpg" Panel.ZIndex="6" MouseDown="DataGrid_MouseDown"/>
 
-        <DataGrid HorizontalAlignment="Left" Height="826" Margin="240,115,0,0" VerticalAlignment="Top" Width="204" MouseDown="DataGrid_MouseDown_1"/>
+        <DataGrid HorizontalAlignment="Left" Height="505" Margin="240,115,0,0" VerticalAlignment="Top" Width="204" MouseDown="DataGrid_MouseDown_1" Background="#FFDC9292"/>
 
         <Image x:Name="column2R7" HorizontalAlignment="Left" Height="200" Margin="270,115,0,0" VerticalAlignment="Top" Width="150" Source="Images/2C.jpg" Panel.ZIndex="0" MouseDown="DataGrid_MouseDown_1"/>
         <Image x:Name="column2R6" HorizontalAlignment="Left" Height="200" Margin="270,165,0,0" VerticalAlignment="Top" Width="150" Source="Images/2C.jpg" Panel.ZIndex="1" MouseDown="DataGrid_MouseDown_1"/>
@@ -30,7 +33,7 @@
         <Image x:Name="column2R2" HorizontalAlignment="Left" Height="200" Margin="270,365,0,0" VerticalAlignment="Top" Width="150" Source="Images/2C.jpg" Panel.ZIndex="5" MouseDown="DataGrid_MouseDown_1"/>
         <Image x:Name="column2R1" HorizontalAlignment="Left" Height="200" Margin="270,415,0,0" VerticalAlignment="Top" Width="150" Source="Images/2C.jpg" Panel.ZIndex="6" MouseDown="DataGrid_MouseDown_1"/>
 
-        <DataGrid HorizontalAlignment="Left" Height="826" Margin="490,115,0,0" VerticalAlignment="Top" Width="204" MouseDown="DataGrid_MouseDown_2"/>
+        <DataGrid HorizontalAlignment="Left" Height="505" Margin="490,115,0,0" VerticalAlignment="Top" Width="204" MouseDown="DataGrid_MouseDown_2" Background="#FFEA9D9D"/>
 
         <Image x:Name="column3R7" HorizontalAlignment="Left" Height="200" Margin="530,115,0,0" VerticalAlignment="Top" Width="150" Source="Images/2C.jpg" Panel.ZIndex="0" MouseDown="DataGrid_MouseDown_2"/>
         <Image x:Name="column3R5" HorizontalAlignment="Left" Height="200" Margin="530,165,0,0" VerticalAlignment="Top" Width="150" Source="Images/2C.jpg" Panel.ZIndex="1" MouseDown="DataGrid_MouseDown_2"/>
@@ -39,8 +42,8 @@
         <Image x:Name="column3R3" HorizontalAlignment="Left" Height="200" Margin="530,315,0,0" VerticalAlignment="Top" Width="150" Source="Images/2C.jpg" Panel.ZIndex="4" MouseDown="DataGrid_MouseDown_2"/>
         <Image x:Name="column3R2" HorizontalAlignment="Left" Height="200" Margin="530,365,0,0" VerticalAlignment="Top" Width="150" Source="Images/2C.jpg" Panel.ZIndex="5" MouseDown="DataGrid_MouseDown_2"/>
         <Image x:Name="column3R1" HorizontalAlignment="Left" Height="200" Margin="530,415,0,0" VerticalAlignment="Top" Width="150" Source="Images/2C.jpg" Panel.ZIndex="6" MouseDown="DataGrid_MouseDown_2"/>
-        <DataGrid HorizontalAlignment="Left" Height="100" Margin="730,452,-18,0" VerticalAlignment="Top" Width="100"/>
-        <Button x:Name="btnSumbit" Content="Submit" Height="100" HorizontalAlignment="Left" Margin="730,452,-18,0" VerticalAlignment="Top" Width="100" FontSize="20" Click="Button_Click_1"/>
+        <DataGrid HorizontalAlignment="Left" Height="48" Margin="730,542,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button x:Name="btnSumbit" Content="Submit" Height="48" HorizontalAlignment="Left" Margin="730,542,0,0" VerticalAlignment="Top" Width="100" FontSize="20" Click="Button_Click_1"/>
         <Label x:Name="lblCurrentCollumn" Content="" HorizontalAlignment="Left" Margin="730,410,0,0" VerticalAlignment="Top" FontSize="18"/>
 
     </Grid>

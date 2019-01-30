@@ -164,5 +164,8 @@
     <Resource Include="Images\QH.jpg" />
     <Resource Include="Images\QS.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\maxresdefault.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
